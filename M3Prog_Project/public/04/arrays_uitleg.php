@@ -1,16 +1,25 @@
 <?php
 
 $nummers = [1,2,3,4,5,6,7];
-
-print_r($nummers);
-echo "<br>",$nummers[2],"<br>";
-echo $nummers[1],"<br>";
-echo $nummers[0],"<br>";
-echo $nummers[4],"<br>";
-
 $dagen = ["maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag", "zondag"];
 
-echo"<br>", $dagen[4],"<br>"; 
-echo $dagen[2],"<br>"; 
-echo $dagen[6],"<br>"; 
-echo $dagen[1]; 
+print_r($nummers);
+echo "<br>";
+echo "<br>";
+echo $nummers[6];
+echo "<br>";
+echo $nummers[1];
+echo "<br>";
+echo $nummers[0];
+echo "<br>";
+echo $nummers[4];
+echo "<br>";
+echo "<br>";
+echo $dagen[4];
+echo "<br>";
+echo $dagen[2];
+echo "<br>";
+echo $dagen[6];
+echo "<br>";
+echo $dagen[1];
+echo "<br>";
